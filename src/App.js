@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Form from './components/form';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ textAlign: 'center', padding: '20px' }}>
+      <h1 style={{ color: '#333', marginBottom: '20px' }}>Generador de comunicados de Texto</h1>
+      <Form />
     </div>
   );
 }
