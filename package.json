@@ -2,6 +2,7 @@
   "name": "pdf_jpg_comunicado",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://agenciah.github.io/pdf_jpg_comunicado/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
