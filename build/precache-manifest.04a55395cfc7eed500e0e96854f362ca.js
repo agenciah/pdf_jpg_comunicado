@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c58ef65ae826f7c1ede0851d7525cafb",
+    "revision": "7e739b126d5b552f82e2ccf9520ff6b7",
     "url": "/pdf_jpg_comunicado/build/index.html"
   },
   {
-    "revision": "ce7040f9f4af8de95f73",
+    "revision": "fe51d56bda36385df140",
     "url": "/pdf_jpg_comunicado/build/static/css/main.27fd15f6.chunk.css"
   },
   {
@@ -36,15 +36,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pdf_jpg_comunicado/build/static/js/5.3024b40c.chunk.js"
   },
   {
-    "revision": "ce7040f9f4af8de95f73",
-    "url": "/pdf_jpg_comunicado/build/static/js/main.94ae9558.chunk.js"
+    "revision": "fe51d56bda36385df140",
+    "url": "/pdf_jpg_comunicado/build/static/js/main.35aa21e5.chunk.js"
   },
   {
     "revision": "df007894dff60cb6370f",
     "url": "/pdf_jpg_comunicado/build/static/js/runtime-main.9b9e03ec.js"
   },
   {
-    "revision": "b79cb3304edc92cddbb1fcf64387de50",
-    "url": "/pdf_jpg_comunicado/build/static/media/comunicado_ejemplo_sinfonia.b79cb330.JPG"
+    "revision": "8db8ab590180784773e1d1097df5579b",
+    "url": "/pdf_jpg_comunicado/build/static/media/Comunicado ejemplo.8db8ab59.jpg"
   }
 ]);

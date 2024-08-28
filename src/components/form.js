@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
-import background from '../images/comunicado_ejemplo_sinfonia.JPG';
+import background from '../images/Comunicado ejemplo.jpg';
 
 function Form() {
   const [formData, setFormData] = useState({
@@ -100,7 +100,7 @@ function Form() {
         <div 
           style={{
             position: 'absolute', 
-            top: '200px', 
+            top: '250px', 
             left: '55px', 
             color: 'black', 
             fontSize: '22px',  // Título más grande
@@ -116,7 +116,7 @@ function Form() {
         <div 
           style={{
             position: 'absolute', 
-            top: '250px', 
+            top: '300px', 
             left: '55px', 
             maxWidth: "88%", 
             color: 'black', 

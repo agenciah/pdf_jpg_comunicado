@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import html2canvas from 'html2canvas';
-import background from '../images/comunicado_ejemplo_sinfonia.JPG';
+import background from '../images/Comunicado ejemplo.jpg';
 
 function Form() {
   const [formData, setFormData] = useState({

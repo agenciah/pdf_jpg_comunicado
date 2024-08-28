@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pdf_jpg_comunicado/build/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/pdf_jpg_comunicado/build/static/js/main.94ae9558.chunk.js",
-    "main.js.map": "/pdf_jpg_comunicado/build/static/js/main.94ae9558.chunk.js.map",
+    "main.js": "/pdf_jpg_comunicado/build/static/js/main.35aa21e5.chunk.js",
+    "main.js.map": "/pdf_jpg_comunicado/build/static/js/main.35aa21e5.chunk.js.map",
     "runtime-main.js": "/pdf_jpg_comunicado/build/static/js/runtime-main.9b9e03ec.js",
     "runtime-main.js.map": "/pdf_jpg_comunicado/build/static/js/runtime-main.9b9e03ec.js.map",
     "static/js/2.d27b9837.chunk.js": "/pdf_jpg_comunicado/build/static/js/2.d27b9837.chunk.js",
@@ -14,18 +14,18 @@
     "static/js/5.3024b40c.chunk.js": "/pdf_jpg_comunicado/build/static/js/5.3024b40c.chunk.js",
     "static/js/5.3024b40c.chunk.js.map": "/pdf_jpg_comunicado/build/static/js/5.3024b40c.chunk.js.map",
     "index.html": "/pdf_jpg_comunicado/build/index.html",
-    "precache-manifest.b98680a1c72bc969fd90a96c1469da0d.js": "/pdf_jpg_comunicado/build/precache-manifest.b98680a1c72bc969fd90a96c1469da0d.js",
+    "precache-manifest.04a55395cfc7eed500e0e96854f362ca.js": "/pdf_jpg_comunicado/build/precache-manifest.04a55395cfc7eed500e0e96854f362ca.js",
     "service-worker.js": "/pdf_jpg_comunicado/build/service-worker.js",
     "static/css/main.27fd15f6.chunk.css.map": "/pdf_jpg_comunicado/build/static/css/main.27fd15f6.chunk.css.map",
     "static/js/2.d27b9837.chunk.js.LICENSE.txt": "/pdf_jpg_comunicado/build/static/js/2.d27b9837.chunk.js.LICENSE.txt",
     "static/js/3.e8d2aa9d.chunk.js.LICENSE.txt": "/pdf_jpg_comunicado/build/static/js/3.e8d2aa9d.chunk.js.LICENSE.txt",
     "static/js/4.8b2e6d54.chunk.js.LICENSE.txt": "/pdf_jpg_comunicado/build/static/js/4.8b2e6d54.chunk.js.LICENSE.txt",
-    "static/media/comunicado_ejemplo_sinfonia.JPG": "/pdf_jpg_comunicado/build/static/media/comunicado_ejemplo_sinfonia.b79cb330.JPG"
+    "static/media/Comunicado ejemplo.jpg": "/pdf_jpg_comunicado/build/static/media/Comunicado ejemplo.8db8ab59.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b9e03ec.js",
     "static/js/2.d27b9837.chunk.js",
     "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.94ae9558.chunk.js"
+    "static/js/main.35aa21e5.chunk.js"
   ]
 }
