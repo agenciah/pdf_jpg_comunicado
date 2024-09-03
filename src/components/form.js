@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 import background from '../images/Comunicado ejemplo.jpg';
@@ -8,6 +8,15 @@ function Form() {
     titulo: '',
     cuerpoDelMensaje: ''
   });
+
+  const [titleHeight, setTitleHeight] = useState(0);
+  const titleRef = useRef(null);
+
+  useEffect(() => {
+    if (titleRef.current) {
+      setTitleHeight(titleRef.current.clientHeight);
+    }
+  }, [formData.titulo]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -98,10 +107,12 @@ function Form() {
         />
         
         <div 
+          ref={titleRef}
           style={{
             position: 'absolute', 
             top: '250px', 
-            left: '55px', 
+            left: '55px',
+            maxWidth: "80%", 
             color: 'black', 
             fontSize: '22px',  // Título más grande
             fontWeight: 'bold', // Título en negritas
@@ -116,8 +127,8 @@ function Form() {
         <div 
           style={{
             position: 'absolute', 
-            top: '300px', 
-            left: '55px', 
+            top: `${250 + titleHeight + 15}px`, // Ajustar la posición del cuerpo del mensaje
+            left: '50px', 
             maxWidth: "88%", 
             color: 'black', 
             fontSize: '18px',  // Tamaño normal para el cuerpo del mensaje

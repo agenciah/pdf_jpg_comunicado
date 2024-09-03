@@ -79,7 +79,8 @@ function Form() {
           style={{
             position: 'absolute', 
             top: '200px', 
-            left: '75px', 
+            left: '80px',
+            maxWidth: "80%",
             color: 'black', 
             fontSize: '18px', 
             whiteSpace: 'pre-wrap'
